@@ -25,7 +25,7 @@ app.use(cookieParser());
 // ===== CORS setup (CRITICAL) =====
 app.use(
   cors({
-    origin: ["https://anubhav.nav-code.com","http://localhost:5174"],
+    origin: ["https://anubhav.nav-code.com","http://localhost:5174","http://localhost:5173"],
   }),
 );
 
@@ -49,4 +49,5 @@ mongoose
   .catch((err) => console.log("Error connecting MongoDB", err));
 
 export default app;
+
 
