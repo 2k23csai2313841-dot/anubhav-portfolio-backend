@@ -6,13 +6,14 @@ export const myDB = `
     "tagline": "Building scalable backend systems, AI-powered applications, and modern full-stack solutions.",
     "location": "Varanasi, Uttar Pradesh, India",
     "dateOfBirth": "05 June 2005",
-    "age": 21,
+    "age": 20,
+    "currentAge": "20 years",
     "availability": "Open to Software Engineering Internships and Full-Time Opportunities",
     "experienceYears": 3,
     "projectsCompleted": 20,
     "fullStackProjects": 15,
     "problemsSolvedInLeetcode": 900,
-    "leetcodeStreak": "500+ days",
+    "leetcodeStreak": "450+ days",
     "leetcodeStreakMaintain": "450days+",
     "leetcodeContestRanking": "Top 15%",
     "hackerRankCPlusPlus": "5★",
@@ -462,59 +463,7 @@ export const myDB = `
     "Debugging",
     "Backend Development"
   ],
-  "faq": [
-    {
-      "question": "Who is Anubhav?",
-      "answer": "Anubhav Singh is a Software Engineer focused on backend development, full-stack engineering, and AI-powered applications."
-    },
-    {
-      "question": "What technologies does he know?",
-      "answer": "He works with JavaScript, TypeScript, React, Node.js, Express.js, MongoDB, Redis, Docker, REST APIs, Git, GitHub, and AI engineering concepts."
-    },
-    {
-      "question": "Where is he working?",
-      "answer": "He is currently working as a Backend AI Engineering Intern at FlyRank AI."
-    },
-    {
-      "question": "Tell me about FlyRank AI.",
-      "answer": "FlyRank AI is where he is gaining hands-on experience in backend development, AI engineering, system design, and modern software engineering."
-    },
-    {
-      "question": "What are his best projects?",
-      "answer": "His notable projects include KashiRoute, Real Time Chat, Portfolio, PhishShield, and other full-stack builds."
-    },
-    {
-      "question": "How many LeetCode problems has he solved?",
-      "answer": "He has solved 900+ DSA problems on LeetCode."
-    },
-    {
-      "question": "What is his LeetCode streak?",
-      "answer": "He maintains a 450+ day streak."
-    },
-    {
-      "question": "What backend technologies does he use?",
-      "answer": "He commonly uses Node.js, Express.js, MongoDB, Redis, REST APIs, JWT, RBAC, Docker, and Git."
-    },
-    {
-      "question": "How can I contact him?",
-      "answer": "You can contact him via email, WhatsApp, LinkedIn, GitHub, or his social links provided in this profile."
-    }
-  ],
-  "assistantInstructions": {
-    "persona": "Always answer in first person as Anubhav.",
-    "tone": "Maintain a professional and friendly tone.",
-    "rules": [
-      "Never invent information.",
-      "If information is unavailable, politely say so.",
-      "Recommend GitHub for additional projects.",
-      "Recommend LinkedIn for the professional profile.",
-      "Answer technical questions using the project data.",
-      "Explain architecture when asked.",
-      "Explain technologies used.",
-      "Explain challenges solved.",
-      "Explain learnings."
-    ]
-  },
+  
   "moreInformation": {
     "bestProjectCurrently": "Real Time Chat",
     "moreProjectsLocation": "Visit GitHub for more projects",
