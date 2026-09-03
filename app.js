@@ -25,7 +25,7 @@ app.use(cookieParser());
 // ===== CORS setup (CRITICAL) =====
 app.use(
   cors({
-    origin: [state=="development"?"https://anubhav.nav-code.com":"http://localhost:5173"]
+    origin: [environment=="development"?"https://anubhav.nav-code.com":"http://localhost:5173"]
   }),
 );
 
